@@ -13,12 +13,11 @@ for index in range(len(randomList)):
 ```
 
 ``` Python
-randomList = [i*m for i in randomList]
+randomList = [item*m for item in randomList]
 ```
 
 **No effect on the List:**
 ``` Python
-# No effect
 for item in randomList:
     item *= m
 ```
