@@ -6,6 +6,10 @@ Multiply everything in a list in Python
 
 ### Results: ###
 
+``` Python
+# m is the multiplier, randomList is the list to multiply with
+```
+
 **Affecting the List:**
 ``` Python
 for index in range(len(randomList)):
