@@ -1,7 +1,9 @@
+# import random to generate a list of random numbers
 import random
 
 # m is a multiplier, chose 1.25 which works well with float
 m = 1.25
+
 # create random list of range 1 to 1000, with 5 items
 firstList = [float(i) for i in random.sample(range(1, 1000), 5)]
 randomList = firstList[:]
